@@ -1,47 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
+#container {
+    margin: 1em auto;
+    max-width: 700px;
+    font-size: 16px;
+    padding: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img:hover {
+    opacity: 0.9;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="description " content="Assignment portal for WDD 230">
-    <title>WDD 230 Portal | Emiliano Pucheta | BYU-I </title>
-    <link rel="stylesheet" href="main.css">
-</head>
+header, footer{
+    background-color: #920707;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
 
-<body>
-    <div id="container">
-        <header>
-            <img src="images/IMG2.jpg" alt="Profile picture">
-            <h1>Emiliano Pucheta</h1>
+header img{
+    float: right;
+    width: 200px;
+    box-shadow: 4px 4px 2px 1px grey;
+    border-radius: 50%;
+    margin-right: 5px;
+}
 
-        </header>
-        <main>
-            <h2>CIT 230 - Assignment Portal</h2>
-            <ul>
-                <li>Lesson 2
-                    <a href="index.html">Assignment Link</a>
-                </li>
-                <li>Lesson 3
-                    <a href="index.html">Assignment Link</a>
-                </li>
-                <li>Lesson 4
-                    <a href="index.html">Link</a>
-                    " | "
-                    <a href="index.html">Link</a>
-                </li>
+main {
+    margin-left: 2em;
+}
 
-            </ul>
-        </main>
-        <footer>
-            ? &copy; <span id="year">2020</span> | Emiliano Pucheta | Cordoba Argentina | <a
-                href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
-                <p id="lastUpdated">Last Updated: 04/23/2020 20:30:43</p>
-        </footer>
-    </div>
-    <p>
-        <script>
-        </script>
+a {
+    text-decoration: none;
+}
 
-</body>
+a:hover {
+    color: darkred;
+}
 
-</html>
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: grey;
+}
+
+
