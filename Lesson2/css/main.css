@@ -1,0 +1,52 @@
+#container {
+    margin: 1em auto;
+    max-width: 700px;
+    font-size: 16px;
+    padding: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img:hover {
+    opacity: 0.9;
+}
+
+h1{
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+header, footer{
+    background-color: #920707;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+header img{
+    float: right;
+    width: 200px;
+    box-shadow: 4px 4px 2px 1px grey;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+main {
+    margin-left: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkred;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: grey;
+}
+
+
