@@ -1,0 +1,10 @@
+@media (min-width: 32.5em){}
+
+
+header img {
+
+    width: 200px;
+    box-shadow: 4px 4px 2px 1px grey;
+    border-radius: 50%;
+    margin-right: 5px;
+}
