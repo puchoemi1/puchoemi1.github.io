@@ -1,10 +1,12 @@
-@media (min-width: 32.5em){}
+@media only screen and (min-width: 32.5em) {
+  
 
+    header img {
+        float: right;
+        width: 200px;
+        box-shadow: 4px 4px 2px 1px grey;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
 
-header img {
-
-    width: 200px;
-    box-shadow: 4px 4px 2px 1px grey;
-    border-radius: 50%;
-    margin-right: 5px;
 }

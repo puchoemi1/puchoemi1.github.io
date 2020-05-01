@@ -22,7 +22,6 @@ header, footer{
 }
 
 header img{
-    float: right;
     width: 200px;
     box-shadow: 4px 4px 2px 1px grey;
     border-radius: 50%;
