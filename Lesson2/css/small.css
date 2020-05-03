@@ -1,51 +1,78 @@
-#container {
-    margin: 1em auto;
-    max-width: 700px;
-    font-size: 16px;
-    padding: 2em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-img:hover {
-    opacity: 0.9;
-}
+* { -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    
+    body {
+        font-size: 16px;
+        line-height: 32px;
+        font-family: 'muli';
+        color: #000000;
+    }
+    
+    header {
+        background-color: #a9845c;
+        padding: .75rem;
+        max-width: 1140px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    header h1, h2, h3, .last{
+        margin: 0;
+        color: #f2f5f7;
+    
+    }
+    .title2 {
+        color: #a9845c;
+    }
 
-h1{
-    font-family: 'Lexend Giga', sans-serif;
-}
+    a:link {
+        color: #a9845c;
+        text-decoration: none;
+    }
+    a:hover  {
+        background-color: #eccba8;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: #666971;
 
-header, footer{
-    background-color: #920707;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    color: white;
-}
-
-header img{
-    width: 200px;
-    box-shadow: 4px 4px 2px 1px grey;
-    border-radius: 50%;
-    margin-right: 5px;
-}
-
-main {
-    margin-left: 2em;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    color: darkred;
-}
-
-footer a {
-    color: white;
-}
-
-footer a:hover {
-    color: grey;
-}
-
-
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        padding: 0.75rem;
+        max-width: 1140px;
+    }
+    
+    img {
+        max-width: 250px;
+        max-height: auto;
+        padding: 10px;
+    }
+    section {
+        padding: 10px;
+        background-color: #eee;
+        text-align: center;
+        align-content: center;
+        margin: 10px;
+    
+    
+    }
+    footer {
+        text-align: center;
+        padding: .75rem;
+        background-color: #a9845c;
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    
+    
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
