@@ -48,6 +48,7 @@ nav ul.hide {display: none;}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 
+
 .clearfix:after {
     content: "";
     display: table;

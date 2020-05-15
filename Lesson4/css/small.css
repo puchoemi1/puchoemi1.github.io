@@ -1,0 +1,143 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    
+}
+
+/* TABLE ELEMENTS*/ 
+.fonts {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+  .fonts th {
+    background-color: #516190;
+    color: white;
+  }
+  .fonts td{
+    width: 25%;
+    height: 3em;
+  }
+  .head1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 2em;
+}
+
+
+/*----------- HEADER --------------*/
+div#headerWrapper {
+    background-color: #eef;
+}
+
+header {
+    padding: .5rem 2%;
+    background-image: linear-gradient(#407ede, #dfe1ef);
+}
+header img {float: left; margin-right: 10px; width: 130px; border-radius: 10px}
+header h1 {margin: 0rem 2rem 0; font-size: 2rem;font-family: 'EB Garamond', serif;}
+header h2 {margin: 0 2rem 0; font-weight: normal; font-size: 1rem;font-family: 'EB Garamond', serif;}
+
+
+
+
+
+/*----------- NAVIGATION --------------*/
+
+nav {
+    background-color: #516190;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 196px;
+}
+div#navWrapper {
+    background-color: #516190;
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+nav button:hover {
+    color: #73a0e4;
+}
+
+nav ul li a {
+    display: block;
+    color: #eee;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-align: left;
+    margin-left: 1em;
+    
+}
+
+
+nav ul li a:hover {
+    background-color: #c1e0ec;
+    color: black;
+    border-bottom: 4px solid #b3b3b3;
+}
+
+nav ul.hide {display: none;}
+
+
+nav ul li.active a {
+    background-color: #233875;
+    color: #fff;
+    font-weight: bold;
+
+}
+/*----------- MAIN --------------*/
+div#contentWrapper{
+    background-color:#fff;
+}
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+main section {
+    background: #c6d2ec;
+}
+main section h3 {
+    padding: 0.5rem;
+}
+
+
+
+/*----------- FOOTER --------------*/
+div#footerWrapper {
+    background-color: #516190;
+}
+footer {
+    background-color: #516190;
+    padding: .5rem 2%;
+    text-align: center;
+    display: flex;
+    color: #eee;
+
+}
+
+
+
+/*--- Clearfix---*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
