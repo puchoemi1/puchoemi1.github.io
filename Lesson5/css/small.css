@@ -138,7 +138,7 @@ div.hideme {
     display: none;
 }
 
-h2.location {
+h1.location {
     margin-left: 0%;
     text-shadow: -2px 6px 12px;
 }
@@ -153,7 +153,7 @@ main section div.banner-box img {
     height: 11em;
 }
 
-main section h3 {
+main section h2 {
     padding: 0.5rem;
 
 }
@@ -261,9 +261,8 @@ div.contact2 {
     line-height: 1.5rem;
 }
 div.location {
-    grid-column: 2;
-    margin: 0em -10em 2em 3em;
-    display: none;
+    grid-row: 3;
+    margin: -4em -10em 2em 3em;
 }
 div.location img {
     width: 60%;

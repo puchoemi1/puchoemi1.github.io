@@ -54,12 +54,12 @@
         border-radius: 10px
     }
 
-    h2.location {
+    h1.location {
         margin-left: 40%;
 
     }
 
-    main section h3 {
+    main section h2 {
         margin-left: 40%;
     }
 
@@ -116,6 +116,10 @@
 
     div.location {
         display: block;
+        grid-column: 2;
+        grid-row: 1;
+        margin: 0em -10em 2em 3em;
+
     }
 
 
