@@ -110,6 +110,8 @@
 
     div.contact {
         text-align: left;
+        margin: 3em 0em 0em -3em;
+
     }
 
     div.location {

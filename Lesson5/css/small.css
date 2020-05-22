@@ -250,7 +250,7 @@ div.contact {
     grid-column: 1;
     grid-row: 1;
     margin: 1em 1em;
-    margin: 3em 0em 0em -3em;
+    margin: 3em 0em 0em 0em;
     text-align: center;
 }
 div.contact2 {
