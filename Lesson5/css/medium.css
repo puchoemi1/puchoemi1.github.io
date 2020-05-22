@@ -107,6 +107,10 @@
         padding: 20px;
         margin-left: 10%;
     }
+    main section.contactsec {
+        display: grid;
+        grid-template-columns: 1fr 1fr;    
+    }
 
     div.contact {
         text-align: left;
@@ -118,10 +122,15 @@
         display: block;
         grid-column: 2;
         grid-row: 1;
-        margin: 0em -10em 2em 3em;
+        height: 100%;
+        margin: 0em 1em 0em 3em;
+        padding: 1em;
 
     }
-
+    iframe {
+        width: 90%;
+        height: 100%;
+    }
 
 
     /*----------- FOOTER --------------*/

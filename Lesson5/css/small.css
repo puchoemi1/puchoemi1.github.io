@@ -243,7 +243,7 @@ main section.contactsec {
     grid-template-columns: 1fr;
     background: linear-gradient(#c3c8d0, #d7d8de);
     margin-top: 2em;
-    margin-bottom: -2em;
+    margin-bottom: 0em;
 
 }
 div.contact {
@@ -261,12 +261,13 @@ div.contact2 {
     line-height: 1.5rem;
 }
 div.location {
-    grid-row: 3;
-    margin: -4em -10em 2em 3em;
+    grid-row: 2;
+    margin: -2em -2em 2em 1em;
 }
-div.location img {
-    width: 60%;
-    padding: 2em;
+
+iframe {
+    
+    width: 90%;
 }
 
 /*----------- FOOTER --------------*/
