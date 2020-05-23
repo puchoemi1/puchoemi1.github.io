@@ -267,6 +267,7 @@ div.contact2 {
 div.location {
     grid-row: 2;
     margin: -2em -2em 2em 1em;
+    display: none;
 }
 
 iframe {
