@@ -170,6 +170,7 @@ main section div.forecast {
     box-shadow: 10px 10px 10px #4F6272;
     font-size: xx-small;
 }
+
 main section div.forecast2 {
     display: none;
 }
@@ -246,6 +247,7 @@ main section.contactsec {
     margin-bottom: 0em;
 
 }
+
 div.contact {
     grid-column: 1;
     grid-row: 1;
@@ -253,6 +255,7 @@ div.contact {
     margin: 3em 0em 0em 0em;
     text-align: center;
 }
+
 div.contact2 {
     grid-column: 1;
     grid-row: 1;
@@ -260,13 +263,14 @@ div.contact2 {
     margin: 7em 0em 3em 0em;
     line-height: 1.5rem;
 }
+
 div.location {
     grid-row: 2;
     margin: -2em -2em 2em 1em;
 }
 
 iframe {
-    
+
     width: 90%;
 }
 

@@ -33,10 +33,12 @@
         padding: .5rem 1rem;
         margin: 0;
     }
+
     nav ul.hide {
         display: flex;
 
     }
+
     nav button {
         display: none;
     }
@@ -107,9 +109,10 @@
         padding: 20px;
         margin-left: 10%;
     }
+
     main section.contactsec {
         display: grid;
-        grid-template-columns: 1fr 1fr;    
+        grid-template-columns: 1fr 1fr;
     }
 
     div.contact {
@@ -127,6 +130,7 @@
         padding: 1em;
 
     }
+
     iframe {
         width: 90%;
         height: 100%;
