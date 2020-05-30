@@ -3,8 +3,7 @@
     max-width: 700px;
     font-size: 16px;
     padding: 2em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+    font-family: 'Merriweather', serif;}
 img:hover {
     opacity: 0.9;
 }
