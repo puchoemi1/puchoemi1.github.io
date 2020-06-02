@@ -20,6 +20,10 @@
     <link href="css/medium.css" rel="stylesheet">
     <!-- enhance-desktop -->
     <link href="css/large.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
     <script type="text/javascript" src="js/scripts.js" defer></script>
 
 
@@ -34,9 +38,9 @@
         <header class="clearfix">
             <img src="images/logo1.gif" alt="logo">
             <section class="heading">
-                <h1>Check Out Weather</h1>
+                <h1 class="animate__animated animate__zoomInDown">Check Out Weather</h1>
                 <div>
-                    <h2 class="headert">checkoutweather.com</h2>
+                    <h2 id="headert" class="animate__animated animate__zoomInDown" >checkoutweather.com</h2>
                 </div>
             </section>
         </header>
@@ -72,17 +76,8 @@
 
             <section class="hero">
                 <h1 class="location">Preston Idaho</h1>
-
-                <div id="message" class="showme">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
-                    park pavilion</div>
-
                 <div class="banner-box">
-
-                    <picture class="myphoto">
-                        <img src="images/hero800.jpg" alt="hero image" sizes="100vw" srcset="images/hero_200.jpg 500w,
-                                images/hero_500.jpg 800w, 
-                                images/hero_800.jpg 1100w">
-                    </picture>
+                    <img src="images/clouds.gif" alt="banner image of clouds">
                 </div>
 
                 <div class="forecast">
@@ -92,11 +87,11 @@
                     <p>High: 70 F°</p>
                     <p>Currently: Cloudy</p>
                     <p>Humidity: 50%</p>
-                    <p>Current Temperature:<span id="temp">32</span>&deg;</p>
-                    <p>Wind Speed:<span id="speed">60</span>MPH</p>
-                    <p id="chill">message</p>
+                    <p>Wind Direction: South West</p>
+                    <p>Wind Speed: 10 mph</p>
 
                 </div> <br>
+
             </section><br>
 
             <section>

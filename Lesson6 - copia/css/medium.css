@@ -1,0 +1,143 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+    /*----------- BODY --------------*/
+
+
+
+    /*----------- HEADER --------------*/
+    header img {
+        width: 150px;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+
+    /*----------- NAVIGATION --------------*/
+    nav ul {
+        margin-left: 2%;
+        display: flex;
+        height: 35px;
+    }
+
+
+
+    nav ul li a {
+        padding: .5rem 1rem;
+        margin: 0;
+    }
+
+    nav ul.hide {
+        display: flex;
+
+    }
+
+    nav button {
+        display: none;
+    }
+
+
+    /*----------- MAIN --------------*/
+    div img {
+        margin-right: 10px;
+        width: 150px;
+    }
+
+    main img {
+        margin-right: 10px;
+        width: auto;
+        border-radius: 10px
+    }
+
+    h1.location {
+        margin-left: 40%;
+
+    }
+
+    main section h2 {
+        margin-left: 40%;
+    }
+
+    main section div.banner-box img {
+        width: 100%;
+    }
+
+    main section div.forecast {
+        position: absolute;
+        display: block;
+        margin: -18em 20px 0px 1em;
+        background: radial-gradient(circle at bottom center, #72ec87 15px, #5ed7fb);
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #111;
+        opacity: .8;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #4F6272;
+        font-size: inherit;
+    }
+
+    main section div.forecast2 {
+        display: block;
+    }
+
+    article {
+        background-color: #92b3e7;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    section article .data {
+        grid-column: 1;
+        grid-row: 1;
+        line-height: 2em;
+        padding: 3em;
+        text-align: justify;
+    }
+
+    section article img {
+        width: 50%;
+        width: 77%;
+        grid-column: 2;
+        padding: 20px;
+        margin-left: 10%;
+    }
+
+    main section.contactsec {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div.contact {
+        text-align: left;
+        margin: 3em 0em 0em -3em;
+
+    }
+
+    div.location {
+        display: block;
+        grid-column: 2;
+        grid-row: 1;
+        height: 100%;
+        margin: 0em 1em 0em 3em;
+        padding: 1em;
+
+    }
+
+    iframe {
+        width: 90%;
+        height: 100%;
+    }
+
+
+    /*----------- FOOTER --------------*/
+
+}
+
+/* end of media query */
