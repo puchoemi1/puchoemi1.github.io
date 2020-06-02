@@ -78,25 +78,26 @@
 
                     <div class="banner-box">
 
-                        <figure class="myphoto">
-                            <img src="images/hero800.jpg" alt="hero image" sizes="100vw" srcset="images/hero_200.jpg 500w,
-                                    images/hero_500.jpg 800w, 
-                                    images/hero_800.jpg 1100w">
-                        </figure>
-                    </div>
+                        <picture class="myphoto">
+                            <source media="(max-width: 500px)" srcset="images/hero_200.jpg">
+                            <source media="(max-width: 768px)" srcset="images/hero_500.jpg">
+                            <source media="(max-width: 1060px)" srcset="images/hero_800.jpg">
+                            <img src="images/hero_800.jpg" alt="hero image">
+                        </picture>
     
-                    <div class="forecast">
-    
-                        <h4>Weather Summary</h4>
-                        <hr>
-                        <p>High: 70 F°</p>
-                        <p>Currently: Cloudy</p>
-                        <p>Humidity: 50%</p>
-                        <p>Current Temperature:<span id="temp">32</span>&deg;</p>
-                        <p>Wind Speed:<span id="speed">60</span>MPH</p>
-                        <p id="chill">message</p>
-    
+                        <section class="forecast">
+                            <h4>Weather Summary</h4>
+                            <hr>
+                            <p>High: 70 F°</p>
+                            <p>Currently: Cloudy</p>
+                            <p>Humidity: 50%</p>
+                            <p>Current Temperature:<span id="temp">32</span>&deg;</p>
+                            <p>Wind Speed:<span id="speed">60</span>MPH</p>
+                            <p id="chill">message</p>
+                        </section>
                     </div> <br>
+    
+
                 </section><br>
 
             <section>
