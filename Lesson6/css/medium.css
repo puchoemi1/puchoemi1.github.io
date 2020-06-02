@@ -69,7 +69,7 @@
         width: 100%;
     }
 
-    main section div.forecast {
+    main section .forecast {
         position: absolute;
         display: block;
         margin: -18em 20px 0px 1em;

@@ -164,17 +164,17 @@ main section h2 {
     width: 100%;
 }
 
-main section div.forecast {
+main section .forecast {
     position: absolute;
     display: block;
-    margin: -18em 0px 0px 1em;
+    margin: -20em 0px 0px 1em;
     background: radial-gradient(circle at bottom center, #72ec87 15px, #5ed7fb);
     padding: 1.5em;
     box-shadow: 0 0 30px #111;
     opacity: .8;
     border-radius: 10px;
     box-shadow: 10px 10px 10px #4F6272;
-    font-size: xx-small;
+    font-size: 7px;
 }
 
 main section div.forecast2 {
