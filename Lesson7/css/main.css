@@ -1,0 +1,31 @@
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+main h1 {
+    grid-column: 2;
+}
+
+picture {
+    grid-column: 2;
+    
+}
+ picture img {
+    width: 300px;
+    border: 1px solid #333;
+    filter: blur(0em);
+    transition: filter 0.8s;
+
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+/*--- Clearfix---*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
