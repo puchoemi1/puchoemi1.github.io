@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Check Out Weather">
+    <meta name="author" content="Emilano Pucheta">
+
+    <title>Check Out Weather</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <!-- STYLE SHEETS -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@615&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+    <script type="text/javascript" src="js/scripts.js" defer></script>
+
+
+
+</head>
+
+<body>
+    <!-- HEADER -->
+
+
+    <div id="headerWrapper">
+        <header class="clearfix">
+            <img src="images/logo1.gif" alt="logo">
+            <section class="heading">
+                <h1>Check Out Weather</h1>
+                <div>
+                    <h2 class="headert">checkoutweather.com</h2>
+                </div>
+            </section>
+        </header>
+    </div>
+
+
+    <!-- NAVIGATION -->
+
+
+
+    <div id="navWrapper">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="gallery.htmlhtml">Home</a></li>
+                <li class="active"><a href="gallery.html">Preston</a></li>
+                <li><a href="gallery.html">Soda Spring</a></li>
+                <li><a href="gallery.html">Fish Haven</a></li>
+                <li><a href="gallery.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <!-- CONTENT -->
+
+
+    <div id="contentWrapper">
+
+        <main>
+
+
+            <section class="hero">
+                <h1 class="location">Preston Idaho</h1>
+
+                <div id="message" class="showme">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
+                    park pavilion</div>
+
+                <div class="banner-box">
+
+                    <picture class="myphoto">
+                        <source media="(max-width: 500px)" srcset="images/hero_200.jpg">
+                        <source media="(max-width: 768px)" srcset="images/hero_500.jpg">
+                        <source media="(max-width: 1060px)" srcset="images/hero_800.jpg">
+                        <img src="images/hero_800.jpg" alt="hero image">
+                    </picture>
+
+                    <section class="forecast">
+                        <h4>Weather Summary</h4>
+                        <hr>
+                        <p>High: 70 F°</p>
+                        <p>Currently: Cloudy</p>
+                        <p>Humidity: 50%</p>
+                        <p>Current Temperature:<span id="temp">32</span>&deg;</p>
+                        <p>Wind Speed:<span id="speed">60</span>MPH</p>
+                        <p id="chill">message</p>
+                    </section>
+                </div> <br>
+            </section>
+            <section>
+                <div class="forecast2">
+
+                    <h2>5 Day Forecast</h2>
+                    <table class="extended">
+                        <tr>
+                            <th>Wed</th>
+                            <th>Thu</th>
+                            <th>Fri</th>
+                            <th>Sat</th>
+                            <th>Sun</th>
+
+                        <tr>
+                            <td> <img src="images/tableimg.png" alt="image of cloud"> 70°F</td>
+                            <td> <img src="images/tableimg.png" alt="image of cloud"> 81°F</td>
+                            <td> <img src="images/tableimg.png" alt="image of cloud"> 78°F</td>
+                            <td> <img src="images/tableimg.png" alt="image of cloud"> 73°F</td>
+                            <td> <img src="images/tableimg.png" alt="image of cloud"> 75°F</td>
+                    </table> <br><br>
+                </div>
+
+                <h2>Rodeoing</h2>
+                <article>
+                    <img src="images/rodeo.jpg" alt="rodeo picture">
+                    <div class="data">You're probably wondering how we came to be a famous rodeo in little ole' Preston,
+                        Idaho. Well,
+                        we are recognized as the first night rodeo in the world....that's right. That's how we became
+                        That Famous Preston Night Rodeo.
+                    </div>
+
+                </article>
+
+
+
+            </section>
+            <section class="contactsec">
+                <div class="contact">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="contact2">
+                    <p>
+                        <span>Preston Idaho</span><br>
+                        <span>🏢 198 E 2nd S St, 83263</span><br>
+                        <span><a href="tel:(888)2012255">📞 (888) 201 2255</a></span><br>
+                        <span><a href="mailto:puc16000@byui.edu">📞Email Us</a></span>
+                    </p>
+                </div>
+                <div class="location"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.7265538464444!2d-111.87352858494614!3d42.0919079792058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7c244963385%3A0x6673ca2cdb50df5c!2s198%20E%202nd%20S%20St%2C%20Preston%2C%20ID%2083263%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1590188371239!5m2!1ses-419!2sar"></iframe>
+                </div>
+            </section>
+
+
+
+
+
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+
+
+
+    <div id="footerWrapper">
+        <footer>
+
+            &copy; 2020 &bull; Emiliano Pucheta &bull; <br>
+            <div id="showdate"></div>
+
+
+        </footer>
+
+
+    </div>
+    <script src="js/windchill.js"></script>
+    <script src="js/announcement.js"></script>
+
+</body>
+
+</html>
