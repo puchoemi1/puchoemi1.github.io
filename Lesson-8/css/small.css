@@ -132,7 +132,7 @@ select, option, input, label, button {
     color: inherit;
 }
 
-.form-control:focus {
+.form-control:focus, textarea:focus {
     color: #495057;
     background-color: #fff;
     border-color: #80bdff;

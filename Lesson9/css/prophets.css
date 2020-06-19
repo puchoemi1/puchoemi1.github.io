@@ -1,0 +1,101 @@
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 1rem;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: 'EB Garamond', serif;
+  color: #142b4e;
+  text-align: center;
+  text-shadow: 3px 3px 7px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+main {
+  background-color: #eef;
+  box-shadow: 0 0 20px #333;
+  padding: 15px;
+  margin: 10px auto;
+  max-width: 95%;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+
+section {
+  background-color: #c0cdec;
+  border: 1px solid #5c8fe1;
+  justify-items: center;
+  padding: 0px;
+  margin-right: 2em;
+}
+
+p {
+  text-align: center;
+  margin: 0;
+  font-size: 13px;
+}
+
+img {
+  display: block;
+  width: 130px;
+  margin: 10px auto;
+  box-shadow: 0 0 20px #333;
+}
+
+footer {
+  text-align: center;
+  color: #142b4e;
+  margin: 10px;
+}
+
+
+@media only screen and (min-width: 35rem) {
+  main {
+    width: 98%;
+    margin: 10px auto;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  section {
+    background-color: #c0cdec;
+    border: 1px solid #5c8fe1;
+    justify-items: center;
+    padding: 0px;
+    margin-right: 2em;
+  }
+}
+
+@media only screen and (min-width: 62rem) {
+
+  main {
+    width: 95%;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  section {
+    background-color: #c0cdec;
+    border: 1px solid #5c8fe1;
+    justify-items: center;
+    padding: 0px;
+    margin-right: 0;
+  }
+
+
+}
