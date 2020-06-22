@@ -68,7 +68,20 @@
         background: linear-gradient(#637ca2, #d7d8de);
         }
 
-        
+        .soda {
+            grid-row: 1;
+            grid-column: 3;        }
+        .fish {
+            grid-column: 1;
+            grid-row: 1;
+        }
+        .preston {
+            grid-row: 1;
+            grid-column: 2;
+        }
+    
+
+
 
     /*----------- FOOTER --------------*/
 
