@@ -18,6 +18,10 @@
     header h2 {
         font-size: 1.5rem;
     }
+    div.data h2 {
+        padding-top: 0em;
+    
+    }
 
 
     /*----------- NAVIGATION --------------*/
@@ -45,24 +49,31 @@
 
 
     /*----------- MAIN --------------*/
-    div img {
-        margin-right: 10px;
-        width: 150px;
-    }
 
-    main img {
+    main div img {
         margin-right: 10px;
-        width: auto;
+        max-width: 300px;
     }
 
     h1.location {
         margin-left: 40%;
 
     }
-
-    main section h2 {
-        margin-left: 40%;
+    div.cards section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
+
+    div.cards section:nth-child(even) img {
+        grid-column: 1;
+    }
+    div.cards section:nth-child(even) .data {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+
+    /*----------- ------------------*/
 
     main section div.banner-box img {
         width: 100%;
@@ -133,50 +144,6 @@
         height: 100%;
     }
 
-    /*home page*/
-    .towns {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 10px;
-        align-items: baseline;
-        background: linear-gradient(#637ca2, #d7d8de);
-    }
-
-    .soda {
-        grid-row: 3;
-        grid-column: 1;
-    }
-    .fish {
-        grid-column: 2;
-        grid-row: 2;
-    }
-    .preston {
-        grid-row: 1;
-        grid-column: 1;
-    }
-
-    .towns {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 10px;
-        align-items: baseline;
-        background: linear-gradient(#637ca2, #d7d8de);
-    }
-
-
-
-    section.towns article img.townPic {
-
-        width: 100%;
-        grid-column: 1fr 1fr 1fr;
-        padding: 10px;
-        margin-left: 0%;
-    }
-
-    main.home h3,
-    main.home p {
-        margin-left: 10px;
-    }
 
     /*gallery page*/
     main div picture.gallery {
@@ -191,10 +158,7 @@
 
     /*storm center page*/
 
-    main h2,
-    div main p.thank {
-        margin-left: .9rem;
-    }
+
 
     .form-box {
         flex-direction: row;
