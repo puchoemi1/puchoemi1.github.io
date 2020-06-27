@@ -1,0 +1,203 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+    /*----------- BODY --------------*/
+
+
+
+    /*----------- HEADER --------------*/
+    header img {
+        width: 150px;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+    div.data h2 {
+        padding-top: 0em;
+    
+    }
+
+
+    /*----------- NAVIGATION --------------*/
+    nav ul {
+        margin-left: 2%;
+        display: flex;
+        height: 35px;
+    }
+
+
+
+    nav ul li a {
+        padding: .5rem 1rem;
+        margin: 0;
+    }
+
+    nav ul.hide {
+        display: flex;
+
+    }
+
+    nav button {
+        display: none;
+    }
+
+
+    /*----------- MAIN --------------*/
+    main img {
+        width: auto;
+        border-radius: 10px
+    }
+
+    h2.location {
+        margin-left: 40%;
+
+    }
+    div.cards section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div.cards section:nth-child(even) img {
+        grid-column: 1;
+    }
+    div.cards section:nth-child(even) .data {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+
+    /*----------- ------------------*/
+
+    /*- Banner-*/
+
+    main section div.banner-box img {
+        width: 100%;
+    }
+
+
+     /*----------- Preston Page ------------------*/
+
+
+    main section .forecast {
+        position: absolute;
+        display: block;
+        margin: -18em 20px 0px 1em;
+        background: radial-gradient(circle at bottom center, #72ec87 15px, #5ed7fb);
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #111;
+        opacity: .8;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #4F6272;
+        font-size: inherit;
+    }
+
+    main section div.forecast2 {
+        display: block;
+        margin-top: 4em;
+
+    }
+
+    .preston-article {
+        background: linear-gradient(#637ca2, #d7d8de);
+        display: grid;
+        grid-template-rows: 1fr;
+
+    }
+
+    section article .data {
+        grid-column: 1;
+        grid-row: 1;
+        line-height: 2em;
+        padding: 3em;
+        text-align: justify;
+    }
+
+    section article img {
+        width: 50%;
+        width: 77%;
+        grid-column: 2;
+        padding: 20px;
+        margin-left: 10%;
+    }
+
+    main section.contactsec {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div.contact {
+        margin: 3em 0em 0em 0em;
+
+    }
+
+    div.location {
+        display: block;
+        grid-column: 2;
+        grid-row: 1;
+        height: 100%;
+        margin: 0em 1em 0em 3em;
+        padding: 1em;
+
+    }
+
+    iframe {
+        width: 90%;
+        height: 100%;
+    }
+
+
+    /*gallery page*/
+    main div picture.gallery {
+        margin: 0.25rem;
+        padding: 0.35rem;
+        background-color: #eee;
+        border: 1px solid #bbb;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*storm center page*/
+
+
+
+    .form-box {
+        flex-direction: row;
+    }
+
+    .form-box label,
+    .form-box label.storm,
+    .form-box label.flexly {
+        flex-basis: 9rem;
+        flex-grow: 0;
+        flex-shrink: 0;
+        display: flex;
+    }
+
+    input.thick {
+        padding: 0;
+        margin-left: 2em;
+    }
+
+    input.submitbtn {
+        border: none;
+        background-image: linear-gradient(#849bbf, #c0c1c7);
+        border-radius: 5%;
+        padding: 0.5rem;
+        margin: 10px 0px 2rem 9rem;
+        width: 20%;
+    }
+
+
+
+    /*----------- FOOTER --------------*/
+
+}
+
+/* end of media query */
