@@ -200,7 +200,7 @@ main section .forecast {
     opacity: .8;
     border-radius: 10px;
     box-shadow: 10px 10px 10px #4F6272;
-    font-size: 7px;
+    font-size: 9px;
 }
 
 main section div.forecast2 {
@@ -213,35 +213,26 @@ main section.article {
 }
 
 .extended {
-    width: 50%;
+    width: 65%;
     min-width: 350px;
     margin: auto;
     text-align: center;
     table-layout: fixed;
-}
-
-.extended th {
-    background-color: #516190;
-    color: white;
-}
-
-.extended td {
-    width: 25%;
-    height: 3em;
-}
-
-table {
     border-collapse: collapse;
+    background: #e0f1ff;
+    border-radius: 30px;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 2px #9fabc1; /* this draws the table border  */ 
 }
 
-table,
-td,
-th {
-
-    border: 1px solid #ced1d9;
 
 
+ table th, td {
+    padding: 10px;
 }
+
+
+
 
 table tr td img {
     width: 60px;

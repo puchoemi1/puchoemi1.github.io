@@ -54,8 +54,8 @@
         border-radius: 10px
     }
 
-    h2.location {
-        margin-left: 40%;
+    h2.location, .forecast2 h2, .preston-title h2 {
+        margin-left: 38%;
 
     }
     div.cards section{

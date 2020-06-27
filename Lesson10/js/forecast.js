@@ -5,6 +5,7 @@ forecastRequest.responseType = "text";
 forecastRequest.send();
 forecastRequest.onload = function () {
   let forecast = JSON.parse(forecastRequest.responseText);
+  
   //remove after testing complete
   console.log(forecast);
   let highTemp = [];
