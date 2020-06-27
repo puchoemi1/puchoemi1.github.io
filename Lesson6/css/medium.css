@@ -85,8 +85,15 @@
     main section div.forecast2 {
         display: block;
     }
+    .preston-article {
+        background: linear-gradient(#637ca2, #d7d8de);
+        display: grid;
+        grid-template-rows: 1fr;
 
-    article {
+    }
+
+
+    main section article {
         background-color: #92b3e7;
         display: grid;
         grid-template-columns: 1fr 1fr;

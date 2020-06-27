@@ -136,10 +136,10 @@ div.cards section {
     margin-top: 1.5rem;
 }
 
-main div img {
-    margin-right: 10px;
+main div section img {
     max-width: 300px;
 }
+
 div.cards img {
     padding: 0.75rem;
 }
@@ -167,7 +167,7 @@ div.hideme {
     display: none;
 }
 
-h1.location {
+h2.location {
     margin-left: 0%;
     text-shadow: -2px 6px 12px;
 }
