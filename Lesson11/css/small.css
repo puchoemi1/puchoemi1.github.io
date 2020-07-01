@@ -135,15 +135,16 @@ div.cards section {
     display: block;
     background-image: linear-gradient(#516190a6, #dfe1ef);
     margin-top: 1.5rem;
+    padding-top: 10px;
 }
 
-main div section img {
-    max-width: 300px;
-}
 
 div.cards img {
+    max-width: 300px;
     padding: 0.75rem;
+    border-radius: 20px;
 }
+
 div.data h2 {
     padding-top: 1em;
 
@@ -168,9 +169,14 @@ div.hideme {
     display: none;
 }
 
-h2.location {
+h2.location, h2.gallerytittle, h2.storm {
     margin-left: 0%;
     text-shadow: -2px 6px 12px;
+}
+
+h2 {
+    text-shadow: -2px 6px 12px;
+
 }
 
 main {
@@ -268,6 +274,20 @@ section article img {
     margin-left: 10%;
 }
 
+
+/*---------Soda page---------*/
+
+img.soda{
+    width: 50%;
+    width: 100%;
+    grid-row: 1;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+/*---------------------------*/
+
+
 main section.contactsec {
     display: grid;
     grid-template-columns: 1fr;
@@ -312,8 +332,6 @@ main .grid-gallery {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 main h2.gallerytittle {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     margin: 2em;
 }
@@ -340,6 +358,7 @@ picture.gallery img {
     margin: 0.5rem;
     max-width: 325px;
     box-shadow: 0 0 30px #777;
+    max-height: 210px;
 }
 
 picture:hover {
