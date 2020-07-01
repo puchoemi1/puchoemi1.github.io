@@ -129,7 +129,9 @@ div.cards {
 div.data h4 {
     padding-top: 0.5rem;
     font-size: 12px;
+    margin: 1px;
 }
+
 
 div.cards section {
     display: block;
