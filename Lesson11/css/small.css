@@ -457,6 +457,25 @@ footer {
 
 }
 
+card.et {
+    background: #4dbee1;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+    box-shadow: 10px 10px 10px #4F6272;
+    font-size: 12px;
+    display: flex;
+    position: inherit;
+    margin: 0;
+}
+card h2 {
+    margin-top: 1.5rem;
+}
+.et ul {
+    list-style-type: none;
+    line-height: 1.2rem;
+    padding: 0;
+}
 
 
 /*--- Clearfix---*/

@@ -31,6 +31,19 @@ const weekday = new Array(7);
     }    
     )
 
+//wind chill calc 
+const tempNumber = parseFloat(document.getElementById("currentTemp").textContent);
+const speedNumber = parseFloat(document.getElementById("windSpeed").textContent);
+
+let windChill = 35.74 + (.06215 * tempNumber) - (35.75 * Math.pow(speedNumber, 0.16)) + (0.4275 * tempNumber * Math.pow(speedNumber, 0.16));
+windChill = Math.round(windChill);
+
+if (tempNumber <= 50 && speedNumber > 3) {
+  document.getElementById("chill").textContent = windChill + "\xb0 F";
+} else {
+  document.getElementById("chill").textContent = "N/A";
+}
+
 
 
 
@@ -66,3 +79,32 @@ forecastRequest.onload = function () {
     }
   }
 }
+
+
+//Event
+
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+
+    const towns = jsonObject['towns'];
+    const home = towns.filter(town => (town.name == 'Fish Haven'));
+
+    home.forEach(town => {
+      let event = document.createElement('article');
+      let eventList = document.createElement('ul');
+
+      const townEvents = town.events;
+      for (let j = 0; j < townEvents.length; j++) {
+        const listItem = document.createElement('li');
+        listItem.textContent = townEvents[j];
+        eventList.appendChild(listItem);
+      }
+
+      document.getElementById('event').appendChild(eventList);
+    })
+  });
