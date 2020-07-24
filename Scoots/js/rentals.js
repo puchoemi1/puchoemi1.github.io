@@ -2,7 +2,7 @@ var data;
 loadData();
 
 function loadData() {
-   const requestURL = 'https://raw.githubusercontent.com/puchoemi1/puchoemi1.github.io/master/Scoots/json/types.json';
+   const requestURL = 'https://raw.githubusercontent.com/puchoemi1/puchoemi1.github.io/master/Scoots/data/types.json';
 
    fetch(requestURL)
    .then(function (response) {
