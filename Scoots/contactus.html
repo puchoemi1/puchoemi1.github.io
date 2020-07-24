@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Scooter Rental">
+    <meta name="author" content="Emilano Pucheta">
+
+    <title>Contact Us</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <!-- STYLE SHEETS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Permanent+Marker&family=Righteous&family=Roboto+Slab:wght@200&display=swap"
+        rel="stylesheet"> <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div id="content">
+
+        <div id="headerWrapper">
+            <header class="clearfix">
+                <img class="logo" src="images/logo.png" alt="logo">
+                <section class="heading">
+                    <div>
+                        <img class="ltittle" src="images/scoots.jpg" alt="logo">
+                    </div>
+                </section>
+            </header>
+        </div>
+
+
+        <!-- NAVIGATION -->
+
+
+
+        <div id="navWrapper">
+            <nav class="clearfix">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rentals.html">Rentals</a></li>
+                    <li><a href="tours.html">Tours</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li class="active"><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <!-- CONTENT -->
+
+
+
+        <main>
+
+            <section class="contactus">
+                <div class="tittle">
+                    <h1 class="">CONTACT US</h1>
+                </div>
+                <div class="formpage">
+                <img class="contact-pic" src="images/playadelcarmen.jpg" alt="">
+                <div class="form-box">
+                        <form class="form-panel" method="get" action="thanks.html">
+                            <div class="form-box">
+                                <label>Full Name</label>
+                                <input class="form-control" type="text" name="fname" placeholder="Full Name"
+                                    pattern="[A-Za-z ]{5,}" required>
+                            </div>
+                            <div class="form-box">
+                                <label>Email</label>
+                                <input class="form-control" type="email" name="email" placeholder="example@gmail.com"
+                                    required>
+                            </div>
+                            <div class="form-box">
+                                <label>Phone</label>
+                                <input class="form-control" type="tel" name="phone" placeholder="1235551234" required>
+                            </div>
+                            <input type="submit" value="Submit" class="submitbtn">
+
+                        </form>
+                </div>
+            </div>
+            </section>
+
+
+
+
+        </main>
+        <!-- FOOTER -->
+
+
+        <div id="footerWrapper">
+            <footer>
+                <section class="contactsec">
+
+                    <div class="contact">
+                        
+                        <span>Cozumel, Mexico</span>
+                        <span>🏢 120 Avenida Sur, 77600, Cozumel, México</span><br>
+                        <span><a href="tel:+18778458158">📞 +18778458158</a></span><br>
+                        <span><a href="mailto:puc16000@byui.edu">📞Email Us</a></span>
+                        <div class="social">
+                            <a class="socialmedia" target="blank" href="https://www.facebook.com">
+                                <img class="icon" src="images/facebook.png" alt="facebook">
+                                <a class="socialmedia" target="blank" href="https://www.twitter.com">
+                                    <img class="icon" src="images/twitter.jpg" alt="twitter">
+                                    <a class="socialmedia" target="blank" href="https://www.tripadvisor.com">
+                                        <img class="icon" src="images/tripadv.PNG" alt="tripadvisor">
+                                    </a>
+                        </div>
+                    </div>
+                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qbvGksnOi77iHi4FbB0DZmUha7dn1KbA" width="640" height="480"></iframe>
+        </div>
+        </section>
+
+        </footer>
+    </div>
+
+    </div>
+    <script src="js/home.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        playaDelCarmenWeather();
+        cozumelWeather();
+
+
+    </script>
+
+</body>
+
+</html>
