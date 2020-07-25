@@ -64,7 +64,10 @@
 
 
 
-        <main id="main_rentals">
+        <main id="rentalsbox">
+            <h1>Rental Equipment</h1>
+
+            <div id="rentals"></div>
             <h2>Rental Conditions</h2>
             <ul id="rental_conditions">
                <li>A $50 security deposit is required to confirm reservations.</li>
@@ -78,8 +81,7 @@
                <li>Payment is accepted via Google Pay, cash, credit card, debit card, or PayPal.</li>
                <li>Rentals may be returned to either location.</li>
             </ul>
-            <h2>Rental Equipment</h2>
-            <div id="rentals"></div>
+
          </main>
               <!-- FOOTER -->
 
@@ -117,6 +119,11 @@
     </div>
     <script src="js/scripts.js"></script>
     <script src="js/rentals.js"></script>
+    <script>
+
+        buildRates();
+
+    </script>
 
 </body>
 

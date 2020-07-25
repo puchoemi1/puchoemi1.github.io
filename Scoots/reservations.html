@@ -64,87 +64,72 @@
 
 
         <main>
-            <div class="firsblock">
-                <section class="tittle1">
-                    <div class="tittle">
-                        <h1 class="">RESERVATIONS</h1>
-                    </div>
-                    <p class="home">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                        Ipsum
-                        has been the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                        type
-                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also
-                        the
-                        leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
-                        1960s
-                        with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                        desktop
-                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </section>
-                <div class="action">
-                    <a class="call" href="https://puchoemi1.github.io/index.html">MAKE YOUR RESERVATION NOW!!</a>  
-
-                </div>
-                <section class="forecast">
-                    <h4>Puerta Maya</h4>
-                    <hr>
-                    <p>Currently:<span id="desc"></span></p>
-                    <p>Temperature:<span id="currentTemp"></span></p>
-                    <p>Humidity:<span id="humidity"></span>%</p>
-                    <p>Wind Speed:<span id="windSpeed"></span>MPH</p>
-                    <hr>
-                    <img class="playa" src="images/puerta.jpg" alt="picture of cozumel">
-
-                </section>
-                <section class="forecast">
-                    <h4>Playa Del Carmen</h4>
-                    <hr>
-                    <p>Currently:<span id="desc2"></span></p>
-                    <p>Temperature:<span id="currentTemp2"></span></p>
-                    <p>Humidity:<span id="humidity2"></span>%</p>
-                    <p>Wind Speed:<span id="windSpeed2"></span>MPH</p>
-                    <hr>
-                    <img class="playa" src="images/playa.jpg" alt="picture of playa del carmen">
-
-                </section>
-                <section class="tittle1">
-                    <div class="tittle">
-                        <h1 class="">RENTAL OPTIONS</h1>
-                    </div>
-                </section>
+            <div class="tittle">
+                <h1 class="">RESERVATIONS</h1>
             </div>
+            <div id="contentWrapper">
 
+                <form class="form-panel" method="get" action="thanks.html">
+                    <div>
+                        <img class="rentalimagebkg" src="images/scooterrider.jpg" alt="">
+                    </div>
+                    <div class="form-box">
+                        <label>Full Name</label>
+                        <input class="form-control" type="text" name="fname" placeholder="Name"" pattern="[A-Z a-z]{5,}" required>
+                    </div>
+                    <div class="form-box">
+                        <label>Email</label>
+                        <input class="form-control" type="email" name="email" placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="form-box">
+                        <label>Phone number</label>
+                        <input class="form-control" type="tel" name="phone" placeholder="+11235551234" required>
+                    </div>
+                    <div class="form-box">
+                        <label>Country</label>
+                        <input class="form-control" type="text" name="country" placeholder="United States" required>
+                    </div>
+                    <div class="form-box">
+                        <label>Rental Date</label>
+                        <input class="form-control" type="date" name="date" required>
+                    </div>
+                    <br><br>
 
+                    <div class="form-box">
+                        <label class="vehicle" required>Vehicle Type</label>
+                        <select class="form-control" name="type">
+                            <option value="" selected disabled>Select</option>
+                            <option value="Honda Metro Scooter">Honda Metropolitan (49cc) - 1 person</option>
+                            <option value="Honda Dio Scooter">Honda Dio (110cc) - 2 person</option>
+                            <option value="Honda PCX150 Scooter">Honda PCX150 (149cc) - 2 person</option>
+                            <option value="Honda Pioneer ATV">ATV - Honda Pioneer 1000 - 4 people max</option>
+                            <option value="Jeep Wrangler - 4 door">Jeep Wrangler - 4 door - manual with A/C - 5 people max</option>
+                            <option value="Jeep Wrangler - 2 door">Jeep Wrangler - 2 door - open air - manual - 4 people max</option>
+                        </select>
 
-            <div class="rentaloptions">
-                <div class="cards">
-                    <h2>Scooter Rental</h2>
-                    <span>Starting at $35/day</span>
-                    <hr><br>
-                    <img src="images/pcx.PNG" alt="Honda PCX">
-                    <br>
-                    <a class="info" href="https://puchoemi1.github.io/index.html">More Info</a>  
-                </div>
+                    </div>
+                    <div class="form-box">
+                        <label class="period" required>Period Type</label>
+                        <div>
+                            <label class="period"><input type="radio" name="period" value="yes"> Half Day (3
+                                hours)</label>
+                            <label class="period"><input type="radio" name="period" value="maybe"> Full Day</label>
+                        </div>
+                    </div>
+                    <div class="additionalinfo">
+                        <div class="form-box">
+                            <label class="aditionalinfo">Cruise Line(If applicable)</label>
+                            <input class="form-control" type="text" name="cruise" pattern="[A-Za-z ]">
+                        </div>
+                        <div class="form-box">
+                            <label class="aditionalinfo">Special Accomodations / Comments</label>
+                            <textarea id="text-box" rows="9" cols="60"></textarea>
 
-                <div class="cards">
+                        </div>
+                        <input type="submit" value="Submit" class="submitbtn">
+                    </div>
+                </form>
 
-                    <h2>ATV Rental</h2>
-                    <span>Starting at $125/day</span>
-                    <hr><br>
-                    <img src="images/pioneer.jpg" alt="Honda PCX">
-                    <br>
-                    <a class="info" href="https://puchoemi1.github.io/index.html">More Info</a>  
-                </div>
-
-                <div class="cards">
-                    <h2>Jeep Rental</h2>
-                    <span>Starting at $90/day</span>
-                    <hr><br>
-                    <img src="images/wrangler.PNG" alt="Honda PCX">
-                    <br>
-                    <a class="info" href="https://puchoemi1.github.io/index.html">More Info</a>  
-                </div>
             </div>
 
 

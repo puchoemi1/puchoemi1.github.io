@@ -16,7 +16,7 @@
                      "full_day":35
                   }
                },
-               "image": "images/metro.jpg"
+               "image": "images/metro.PNG"
             },
             {
                "rental_type":"Honda Dio Scooter",
@@ -31,7 +31,7 @@
                      "full_day":45
                   }
                },
-               "image":"images/dio.jpg"
+               "image":"images/dio.PNG"
             },
             {
                "rental_type":"Honda PCX150 Scooter",
@@ -74,7 +74,7 @@
          "type":"Jeep",
          "rentals":[
             {
-               "rental_type":"Jeep Wrangler - 4 door with a/c",
+               "rental_type":"Jeep Wrangler - 4 Door",
                "max_persons":5,
                "pricing":{
                   "reservation":{
@@ -89,7 +89,7 @@
                "image": "images/wrangler4.png"
             },
             {
-               "rental_type":"Jeep Wrangler - 2 door",
+               "rental_type":"Jeep Wrangler - 2 Door",
                "max_persons":4,
                "pricing":{
                   "reservation":{

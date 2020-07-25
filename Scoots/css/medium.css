@@ -8,22 +8,23 @@
 
     /*----------- HEADER --------------*/
 
-.firsblock {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-}
+    .firsblock {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
 
-header img.ltittle {
-    margin-right: 10px;
-    width: 300px;
-    border-radius: 10px;
-    margin-top: 3em;
-}
-header img.logo {
-    width: 180px;
-    margin-left: -20px;
-}
+    header img.ltittle {
+        margin-right: 10px;
+        width: 300px;
+        border-radius: 10px;
+        margin-top: 3em;
+    }
+
+    header img.logo {
+        width: 180px;
+        margin-left: -20px;
+    }
 
     header h1 {
         font-size: 3rem;
@@ -32,9 +33,10 @@ header img.logo {
     header h2 {
         font-size: 1.5rem;
     }
+
     div.data h2 {
         padding-top: 0em;
-    
+
     }
 
     /*----------- NAVIGATION --------------*/
@@ -48,7 +50,7 @@ header img.logo {
 
 
     nav ul.hide {
-        display: flex;    
+        display: flex;
         font-size: 0.9rem;
 
     }
@@ -64,7 +66,8 @@ header img.logo {
         border-radius: 10px
     }
 
-    h2.location, .forecast2 h2  {
+    h2.location,
+    .forecast2 h2 {
         margin: 2em 0 2em 38%;
 
     }
@@ -74,13 +77,14 @@ header img.logo {
         font-size: 18px;
     }
 
-    img.soda{
+    img.soda {
         width: 50%;
         width: 100%;
         grid-row: 1;
         margin-left: 0%;
         margin-top: 20%;
     }
+
     card.et {
 
         margin: -27em 0 0 35em;
@@ -90,14 +94,10 @@ header img.logo {
 
     /*----------- ------------------*/
 
-    /*- Banner-*/
 
     main section div.banner-box img {
         width: 100%;
     }
-
-
-     /*----------- Preston Page ------------------*/
 
 
     main section.forecast {
@@ -111,6 +111,7 @@ header img.logo {
         font-size: 14px;
         line-height: 9px;
     }
+
     .playa {
         width: 300px;
         display: block;
@@ -122,40 +123,18 @@ header img.logo {
 
     }
 
-    .preston-article {
-        background: linear-gradient(#637ca2, #d7d8de);
-        display: grid;
-        grid-template-rows: 1fr;
-
-    }
-
-    section article .data {
-        grid-column: 1;
-        grid-row: 1;
-        line-height: 2em;
-        padding: 3em;
-        text-align: justify;
-    }
-
-    section article img {
-        width: 50%;
-        width: 77%;
-        grid-column: 2;
-        padding: 20px;
-        margin-left: 10%;
-    }
 
     .contactsec {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column: 1/3;
-        
+
 
     }
 
     div.contact {
         margin: 2em 3em 4em 0em;
-            }
+    }
 
     div.location {
         display: block;
@@ -181,19 +160,14 @@ header img.logo {
         margin-left: 7em;
         display: block;
     }
+
     .formpage {
 
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .form-panel {
-        background: linear-gradient(45deg, #e7e6e2, #385f8a);
-        border: 1px solid #bbb;
-        box-shadow: 0 0 10px #333;
-        padding: 1em;
-        width: 62%;
-        margin: 5em 4em;
-    }
+
+
 
     /*storm center page*/
 
@@ -213,10 +187,27 @@ header img.logo {
         padding: 0;
         margin-left: 2em;
     }
+
     .form-panel {
 
         margin: 2em 4em;
     }
+
+    /*----------- Rental Page --------------*/
+
+    #rentals{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #rentals:nth-child(3n+1) .rentalcard {
+        grid-column: 2;
+    }
+    #rentals:nth-child(3n+2) .rentalcard .rentalpic {
+        grid-column: 1;
+    }
+    
+
 
 
 
