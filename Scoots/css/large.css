@@ -1,9 +1,6 @@
 /* 64em is also 1028px (if basefont is 16px) */
 @media only screen and (min-width: 64rem) {
 
-
-
-
     /*----------- BODY --------------*/
 
 
@@ -32,22 +29,6 @@
         display: flex;
     }
 
-    .heading {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    .headert {
-        font-style: italic;
-
-    }
-
-    /*----------- HEADER --------------*/
-
-
-
 
     /*----------- NAVIGATION --------------*/
 
@@ -65,7 +46,7 @@
         font-size: 1rem;
 
     }
-    /*----------- MAIN --------------*/
+    /*----------- Home Page --------------*/
 
     main section.forecast {
         margin: 3em 4em 3px 6em;
@@ -81,34 +62,16 @@
         display: block;
     }
 
-
-
-    img.soda {
-        width: 50%;
-        width: 100%;
-        grid-row: 1;
-        margin-left: 0%;
-        margin-top: 10%;
-    }
-
-    card.et {
-        background: #4dbee1;
-        padding: 1.5rem;
-        box-shadow: 0 0 30px #111;
-        opacity: .8;
-        box-shadow: 10px 10px 10px #4F6272;
-        font-size: 12px;
-        display: block;
-        position: absolute;
-        margin: -37em 0 0 52em;
-    }
-
+    /*----------- Rentals Page --------------*/
 
     #rentals{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    /*----------- FOOTER --------------*/
+    .rentalimagebkg {
+        width: 75%;
+        float: right;
+    }
 
 }
 

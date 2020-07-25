@@ -16,8 +16,7 @@ html {
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
-    font-family: Verdana, sans-serif;
-
+    font-family: "Open Sans",Arial,sans-serif;
 }
 
 #content {
@@ -28,7 +27,8 @@ body {
 
 p.home {
     line-height: 2rem;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-family: "Open Sans",Arial,sans-serif;
 }
 
 
@@ -271,48 +271,9 @@ main section.article {
     padding-top: 2em;
 }
 
-/*----------- Forecast table format --------------*/
-
-
-.extended {
-    width: 65%;
-    min-width: 350px;
-    margin: auto;
-    text-align: center;
-    border-collapse: collapse;
-    background: #e0f1ff;
-    border-radius: 30px;
-    border-style: hidden;
-    /* hide standard table (collapsed) border */
-    box-shadow: 0 0 0 2px #9fabc1;
-    /* this draws the table border  */
-}
-
-
-
-table th,
-td {
-    padding: 10px;
-}
-
-
-
-
-table tr td img {
-    width: 60px;
-    padding: 0.3rem;
-}
-
 /*------------------------------------------------*/
 
 
-section article img {
-    width: 50%;
-    width: 77%;
-    grid-row: 1;
-    padding: 20px;
-    margin-left: 10%;
-}
 
 .rentaloptions {
     display: grid;
@@ -350,21 +311,6 @@ div.rentalcard h3 {
 
 
 
-
-
-/*---------Soda page---------*/
-
-img.soda {
-    width: 50%;
-    width: 100%;
-    grid-row: 1;
-    margin-left: 0%;
-    margin-top: 0%;
-}
-
-/*---------------------------*/
-
-
 main section.contactsec {
     display: grid;
     grid-template-columns: 1fr;
@@ -379,6 +325,9 @@ div.contact {
     grid-row: 1;
     margin: 1em 1em;
     text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+
 }
 
 
@@ -396,29 +345,6 @@ iframe {
 .contact-bkg {
     width: 100%;
 }
-
-/*gallery page*/
-
-picture p {
-    height: 10px;
-}
-
-picture.gallery img {
-    width: 300px;
-    border: 1px solid #333;
-    filter: blur(0em);
-    transition: filter 0.8s;
-    margin: 0.5rem;
-    max-width: 325px;
-    box-shadow: 0 0 30px #777;
-    max-height: 202px;
-    border-radius: 10px;
-}
-
-picture:hover {
-    box-shadow: 0 0 50px #333;
-}
-
 
 
 
@@ -455,12 +381,21 @@ textarea:focus {
     position: relative;
     background: #dc811f4f;
 }
+
+select.form-control {
+    width: 13em;
+}
+
+
 .rentalimagebkg {
-    width: 75%;
-    float: right;
+    width: 100%;
+    float: none;
 }
 .additionalinfo {
 text-align: center;
+}
+.additionalinfo #text-box {
+width: 20em;
 }
 
 
@@ -477,10 +412,6 @@ text-align: center;
 
 .form-box label.aditionalinfo {
     display: block;
-}
-
-#ratingvalue {
-    margin: 20px 20px;
 }
 
 input:invalid {
@@ -521,6 +452,27 @@ input.submitbtn {
     text-transform: uppercase!important;
     background-color: #ffffff;
 }
+
+.conditions{
+    margin: 2em 4em;
+}
+
+/***************TOUR PAGE*************/
+
+.tourcards a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.25;
+}
+.tourcards p {
+
+    line-height: 1.9;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+
+
 
 
 /*----------- Contact Page --------------*/
